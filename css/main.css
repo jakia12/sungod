@@ -2245,3 +2245,11 @@ img {
     #ffaa1d 3.84068px -1.11766px 0, #ffaa1d 3.9978px -0.132717px 0,
     #ffaa1d 0 16px 0;
 }
+
+.buy__item {
+  background: rgba(1, 95, 5, 0.24);
+  border: 8px solid #e5930f;
+  border-radius: 42px;
+  padding: 32px;
+  position: relative;
+}

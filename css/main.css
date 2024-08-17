@@ -427,13 +427,22 @@ img {
   width: 100%;
   padding: 40px 0;
 }
-
+.logo_ds {
+  color: #fff;
+  font-size: 52px;
+  font-style: italic;
+}
 @media screen and (max-width: 767.98px) {
   .header {
     padding: 20px 0;
   }
   .ban_txt {
     margin-top: 40px;
+  }
+  .logo_ds {
+    color: #fff;
+    font-size: 42px;
+    font-style: italic;
   }
 }
 

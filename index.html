@@ -9,13 +9,15 @@
     <title>$SUNGOD</title>
     <style>
       .water {
-        background-color: #111;
+        background-color: transparent;
       }
+
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
     </style>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="shortcut icon" href="img/logo2.png" type="image/png" />
   </head>
-  <body>
+  <body style="font-family: 'Roboto', sans-serif">
     <div class="wrapper">
       <picture>
         <source
@@ -200,12 +202,13 @@
       </div>
       <div
         class="layer-3"
-        style="background: #111; display: flex; flex-direction: column"
+        style="background: transparent; display: flex; flex-direction: column"
       >
         <div class="bottom-illustration">
           <canvas width="400" height="400"></canvas>
         </div>
-        <section id="how-to-buy" class="buy layer-2">
+        <!-- section htb  -->
+        <!-- <section id="how-to-buy" class="buy layer-2">
           <div class="buy__container container layer-2">
             <h2 class="buy__title">HOW TO BUY $SUNGOD</h2>
             <div class="buy__grid">
@@ -316,7 +319,7 @@
                   <img src />
                 </a>
               </div>
-              <!-- <div>
+              <div>
                 <a href="#" target="_blank"
                   ><img src="/img/mexc.png" alt="" /> </a
                 ><a href="#" target="_blank"
@@ -339,11 +342,11 @@
                 ><a href="#" target="_blank"
                   ><img src="/img/bingx.png" alt=""
                 /></a>
-              </div> -->
+              </div> 
             </div>
           </div>
           <canvas class="buy__anim"></canvas>
-        </section>
+        </section> -->
         <section></section>
         <section id="community" class="community layer-2">
           <div class="community__container container">
@@ -421,30 +424,16 @@
                 >Buy NOW</a
               >
             </div> -->
-            <div class="footer__bottom">
-              <div class="footer__left">
-                <div class="footer__logo logo">
-                  <img class="logo__icon" src="img/logo2.png" alt="$SCRAT" />
-                  <span>SUNGOD</span>
-                </div>
-                <p class="footer__copyright">SUNGOD 2024</p>
-              </div>
-              <div class="footer__center">
-                <span class="footer__label">Disclaimer</span>
-                <p class="footer__text">
-                  $SUNGOD is a memecoin with no intrinsic value or expectation
-                  of financial return.
-                </p>
-              </div>
-              <div class="footer__right">
-                <span class="footer__label">Navigation</span>
-                <nav class="footer__nav">
-                  <a href="#about">About</a>
-                  <a href="#tokenomics">Tokenomics</a>
-                  <a href="#roadmap">Roadmap</a>
-                  <a href="#how-to-buy">How to buy</a>
-                  <a href="#community">Social</a>
-                </nav>
+            <div
+              class="footer__bottom"
+              style="
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              "
+            >
+              <div style="text-align: center; color: #fff; font-size: 20px">
+                <span>$SUNGOD ! 2024</span>
               </div>
             </div>
           </div>

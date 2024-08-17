@@ -432,6 +432,9 @@ img {
   .header {
     padding: 20px 0;
   }
+  .ban_txt {
+    margin-top: 40px;
+  }
 }
 
 .header__container {
